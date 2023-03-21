@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(32, 33, 36);
+}
+
+#screen {
+    border: 2px solid rgb(48, 49, 52);
+    background-color:transparent;
+    width:650px;
+    height:60px;
+    border-radius:10px;
+}
+#screen:hover{
+    background-color: rgb(48, 49, 52);
+}
+.tainer{
+    border:2px solid white;
+    width:660px;
+}
