@@ -4,15 +4,102 @@ body {
 
 #screen {
     border: 2px solid rgb(48, 49, 52);
-    background-color:transparent;
-    width:650px;
-    height:60px;
-    border-radius:10px;
+    background-color: transparent;
+    width: 705px;
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+text-align: end;
+overflow: hidden;
 }
-#screen:hover{
+
+#screen:hover {
     background-color: rgb(48, 49, 52);
 }
-.tainer{
-    border:2px solid white;
-    width:660px;
+
+.tainer {
+    width: 710px;
+    margin-top:11%;
+    margin-left:10%;
 }
+
+#stress {
+    display: flex;
+    width: 700px;
+    margin-top: 10px;
+}
+
+#func{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(95, 99, 104);
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+#func:hover {
+    background-color: rgb(112, 117, 122);
+}
+
+#cnuf {
+    width: 210px;
+    margin-left: 10px;
+    height: 40px;
+    background-color: rgb(95, 99, 104);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+
+
+}
+
+#cnuf:hover {
+    background-color: rgb(66, 69, 72);
+}
+
+#dun {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(60, 64, 67);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+
+}
+
+#dun:hover {
+    background-color: rgb(66, 69, 72);
+}
+
+#blu {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(133, 173, 239);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#blu:hover {
+    background-color: rgb(157, 183, 225);
+
+}
+.one{
+    color:rgba(255, 255, 255, 0.945);
+}
+#two{
+    text-decoration:none;
+    color:gray;
+}
+#zero{
+    text-decoration:none;
+}
+/* #eigh{} */
