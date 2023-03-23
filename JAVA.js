@@ -37,7 +37,9 @@ function chang() {
 
 }
 
+let screen = document.getElementById('screen')
 function sol() {
-    if () { }
-
+    if (document.getElementById('screen').innerHTML != '') 
+    { eval(screen.innerHTML)}
+    else { alert('wrong') }
 }
